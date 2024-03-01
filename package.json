@@ -1,0 +1,32 @@
+{
+    "name"        : "node-json-align",
+    "author"      : "decentmusk",
+    "description" : "Library and script to pretty-print JSON files with values aligned together.",
+    "version"     : "0.1.0",
+    "repository"  : {
+        "type" : "git",
+        "url"  : "https://github.com/decentmusk/node-json-align.git"
+    },
+    "license"  : "MIT",
+    "keywords" : [
+        "json",
+        "align",
+        "pretty print"
+    ],
+    "scripts" : {
+        "test" : "node node_modules/.bin/mocha"
+    },
+    "bin" : {
+        "json-align" : "bin/json-align.js"
+    },
+    "main"            : "index.js",
+    "preferGlobal"    : true,
+    "devDependencies" : {
+        "mocha"    : "~1.12.0",
+        "should"   : "~1.2.2",
+        "fs-extra" : "~0.6.4"
+    },
+    "dependencies" : {
+        "commander" : "~2.0.0"
+    }
+}
